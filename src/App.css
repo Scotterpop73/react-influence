@@ -43,6 +43,17 @@
 }
 
 .disneyStatue{
-  height: 70vmin;
+  height: 77vmin;
   pointer-events: none;
+}
+
+.disneyImgAbout{
+  height: 50vmin;
+  pointer-events: none;
+}
+
+.influence{
+  background-color: white;
+  color: black;
+  font-size: calc(10px + 2vmin);
 }

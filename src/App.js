@@ -7,13 +7,15 @@ import { useState } from "react";
 
 import AboutComponent from "./components/AboutComponent";
 import Title from "./components/Title";
+import AwardsComponent from "./components/AwardsComponent";
+import ThemeParkComponent from "./components/ThemeParkComponent";
 
 function App() {
   //Variable and the function to set it
   const [components, setComponents] = useState([
     { Title: "About", Component: AboutComponent },
-    { Title: "Awards", Component: "" },
-    { Title: "Influence", Component: "" },
+    { Title: "Awards", Component: AwardsComponent },
+    { Title: "ThemeParks", Component: ThemeParkComponent },
     { Title: "", Component: Title },
   ]);
 
