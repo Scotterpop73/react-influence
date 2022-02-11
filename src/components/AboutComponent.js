@@ -2,11 +2,12 @@ import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import disneydrawing2 from "../Assets/disneydrawing2.jpeg";
 import disneycoloredmickey from "../Assets/disneycoloredmickey.jpeg";
+import "animate.css";
 
 export default function AboutComponent() {
   return (
     <div>
-      <Container className="influence mt-5">
+      <Container className="influence mt-5 animate__animated animate__bounceInDown">
         <Row>
           <Col className="d-flex justify-content-center pt-3">
             <h1>
@@ -23,7 +24,7 @@ export default function AboutComponent() {
               a pioneer in the animation industry and he introduced many
               developments in the production of cartoons. The most notable
               character that Disney created was Mickey Mouse in 1928. As a
-              child, Disney took art classes and at the age of 18 hegot a job as
+              child, Disney took art classes and at the age of 18 he got a job as
               a commercial illustrator. By the early 1920s, Disney moved to
               California and with his brother Roy, set up the Disney Brothers
               Studio.
@@ -60,7 +61,7 @@ export default function AboutComponent() {
               continued to grow in size and have expanded to several countries.
               <br /> <br />
               <a
-                href="https://en.wikipedia.org/wiki/Walt_Disney"
+                href="https://www.waltdisney.org/walt-disney"
                 rel="noreferrer"
                 target="_blank"
               >

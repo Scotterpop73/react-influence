@@ -1,19 +1,15 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import academy from "../Assets/academy.jpeg";
-import goldenglobe from "../Assets/goldenglobe.jpeg";
-import emmy from "../Assets/emmy.jpg";
-import pinocchio from "../Assets/pinocchio.jpeg";
-import snowwhite from "../Assets/snowwhite.jpeg";
-import walkoffame from "../Assets/walkoffame.jpeg";
+import "animate.css";
+
 import halloffame from "../Assets/halloffame.jpeg";
 import nationalaward from "../Assets/nationalaward.jpeg";
-import medaloffreedom from "../Assets/medaloffreedom.jpeg";
+
 
 export default function AwardsComponent() {
   return (
     <div>
-      <Container className="influence mt-5">
+      <Container className="influence mt-5 animate__animated animate__rotateInDownLeft">
         <Row>
           <Col className="d-flex justify-content-center pt-3">
             <h1>

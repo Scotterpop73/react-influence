@@ -1,6 +1,8 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import 'animate.css';
+
 
 import { Navbar, Container, Nav, Row, Col } from "react-bootstrap";
 import { useState } from "react";
@@ -15,7 +17,7 @@ function App() {
   const [components, setComponents] = useState([
     { Title: "About", Component: AboutComponent },
     { Title: "Awards", Component: AwardsComponent },
-    { Title: "ThemeParks", Component: ThemeParkComponent },
+    { Title: "Parks", Component: ThemeParkComponent },
     { Title: "", Component: Title },
   ]);
 

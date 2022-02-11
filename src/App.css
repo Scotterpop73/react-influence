@@ -52,6 +52,11 @@
   pointer-events: none;
 }
 
+.disneyImgTheme{
+  height: 40vmin;
+  pointer-events: none;
+}
+
 .influence{
   background-color: white;
   color: black;
